@@ -31,5 +31,17 @@ Remove the original .git folder to create your own repo:
 ```
 rm -rf .git/
 ```
+Then, initialize your own git repo:
 
 
+```
+git init
+```
+
+
+Start simple: write one small function at a time.
+
+ - Test each function with sample input/output before moving on.
+
+- Use print while debugging, but always keep a return value in your final solution.
+- Think about real-world behavior (e.g., a patient with no record should return “Not Found”).
