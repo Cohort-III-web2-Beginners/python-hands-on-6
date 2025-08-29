@@ -16,11 +16,11 @@ The function should return a list of transactions that match the given criteria.
 
 1. If the criteria is a string field (e.g., "type": "deposit"), return only those transactions with the exact same type.
     filter_transactions(transactions, {"type": "deposit"})
-# → Returns all deposit transactions
+ → Returns all deposit transactions
 
 2.   If the criteria is a numeric field (e.g., "amount": 100), return all transactions where the value is greater than or equal to the given number.
 
 filter_transactions(transactions, {"amount": 100})
-# → Returns all transactions with amount ≥ 100
+ → Returns all transactions with amount ≥ 100
 
 """
