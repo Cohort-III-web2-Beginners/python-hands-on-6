@@ -23,4 +23,14 @@ The function should return a list of transactions that match the given criteria.
 filter_transactions(transactions, {"amount": 100})
  → Returns all transactions with amount ≥ 100
 
+
+ Expected Output Examples:
+print(filter_transactions(transactions, {"type": "deposit"}))
+[{'id': 1, 'amount': 200, 'type': 'deposit'},
+{'id': 3, 'amount': 500, 'type': 'deposit'}]
+
+print(filter_transactions(transactions, {"amount": 100}))
+[{'id': 1, 'amount': 200, 'type': 'deposit'},
+{'id': 3, 'amount': 500, 'type': 'deposit'}]
+
 """
